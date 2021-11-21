@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Assignment</title>
+</head>
+
+<body>
+    <section class="container">
+
+        <div id="changeColor" class="header">
+            <h1 id="h1">Hello Sir...! <br> JavaScript Assignment</h1>
+
+            <button onclick="colorBg()">Background Color Change</button>
+            <button onclick="txColor()">Text Color Change</button>
+        </div>
+
+        <section class="bgImg">
+            <div class="imgCont">
+                <img id="developer" src="./images/image.webp" width="100%" alt="">
+            </div>
+
+            <div class="img-btn">
+                <button onclick="showImg()">Show Image</button>
+                <button onclick="bigImg()">Big Image</button>
+                <button onclick="smImg()">Small Image</button>
+                <button onclick="hideImg()">Hide Image</button>
+            </div>
+        </section>
+
+        <div class="bulbImg">
+            <img onmouseover="bulb(1,this)" onmouseout="bulb(0,this)" src="./images/off_1.jpg" width="200px" alt="">
+        </div>
+
+        <div class="para">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ipsam dicta impedit placeat facere saepe
+                repellendus praesentium maxime consequatur et quae debitis provident. Eum impedit aspernatur obcaecati
+                quibusdam veritatis. Neque beatae quo a, incidunt numquam qui soluta mollitia blanditiis quasi natus ad
+                accusamus illum. Et.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ipsam dicta impedit placeat facere saepe
+                repellendus praesentium maxime consequatur et quae debitis provident. Eum impedit aspernatur obcaecati
+                quibusdam veritatis. Neque beatae quo a, incidunt numquam qui soluta mollitia blanditiis quasi natus ad
+                accusamus illum. Et.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ipsam dicta impedit placeat facere saepe
+                repellendus praesentium maxime consequatur et quae debitis provident. Eum impedit aspernatur obcaecati
+                quibusdam veritatis. Neque beatae quo a, incidunt numquam qui soluta mollitia blanditiis quasi natus ad
+                accusamus illum. Et.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, ipsam dicta impedit placeat facere saepe
+                repellendus praesentium maxime consequatur et quae debitis provident. Eum impedit aspernatur obcaecati
+                quibusdam veritatis. Neque beatae quo a, incidunt numquam qui soluta mollitia blanditiis quasi natus ad
+                accusamus illum. Et.</p>
+
+            <button onclick="para()">Change paragraph Color</button>
+        </div>
+
+
+    </section>
+
+    <br><br>
+
+</body>
+<script src="./app.js"></script>
+
+</html>
